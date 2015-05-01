@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0785BAC1AF2993C00618659 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0785BAB1AF2993C00618659 /* AppDelegate.swift */; };
+		A0785BAE1AF2993C00618659 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0785BAD1AF2993C00618659 /* ViewController.swift */; };
+		A0785BB11AF2993C00618659 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0785BAF1AF2993C00618659 /* Main.storyboard */; };
+		A0785BB31AF2993C00618659 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0785BB21AF2993C00618659 /* Images.xcassets */; };
+		A0785BB61AF2993C00618659 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0785BB41AF2993C00618659 /* LaunchScreen.xib */; };
+		A0785BC21AF2993C00618659 /* GlanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0785BC11AF2993C00618659 /* GlanceTests.swift */; };
+		A0785BD41AF2996100618659 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0785BD31AF2996100618659 /* InterfaceController.swift */; };
+		A0785BD61AF2996100618659 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0785BD51AF2996100618659 /* GlanceController.swift */; };
+		A0785BD81AF2996100618659 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0785BD71AF2996100618659 /* Images.xcassets */; };
+		A0785BDC1AF2996200618659 /* Glance WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = A0785BDB1AF2996200618659 /* Glance WatchKit App.app */; };
+		A0785BE41AF2996200618659 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0785BE21AF2996200618659 /* Interface.storyboard */; };
+		A0785BE61AF2996200618659 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0785BE51AF2996200618659 /* Images.xcassets */; };
+		A0785BE91AF2996200618659 /* Glance WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A0785BCF1AF2996100618659 /* Glance WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0785BBC1AF2993C00618659 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0785B9E1AF2993C00618659 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0785BA51AF2993C00618659;
+			remoteInfo = Glance;
+		};
+		A0785BDD1AF2996200618659 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0785B9E1AF2993C00618659 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0785BDA1AF2996200618659;
+			remoteInfo = "Glance WatchKit App";
+		};
+		A0785BE71AF2996200618659 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0785B9E1AF2993C00618659 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0785BCE1AF2996100618659;
+			remoteInfo = "Glance WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A0785BF01AF2996200618659 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A0785BE91AF2996200618659 /* Glance WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A0785BA61AF2993C00618659 /* Glance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Glance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0785BAA1AF2993C00618659 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0785BAB1AF2993C00618659 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A0785BAD1AF2993C00618659 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A0785BB01AF2993C00618659 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0785BB21AF2993C00618659 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A0785BB51AF2993C00618659 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A0785BBB1AF2993C00618659 /* GlanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0785BC01AF2993C00618659 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0785BC11AF2993C00618659 /* GlanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceTests.swift; sourceTree = "<group>"; };
+		A0785BCF1AF2996100618659 /* Glance WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Glance WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0785BD21AF2996100618659 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0785BD31AF2996100618659 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		A0785BD51AF2996100618659 /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		A0785BD71AF2996100618659 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A0785BDB1AF2996200618659 /* Glance WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Glance WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0785BE11AF2996200618659 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0785BE31AF2996200618659 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		A0785BE51AF2996200618659 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0785BA31AF2993C00618659 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0785BB81AF2993C00618659 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0785BCC1AF2996100618659 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0785B9D1AF2993C00618659 = {
+			isa = PBXGroup;
+			children = (
+				A0785BA81AF2993C00618659 /* Glance */,
+				A0785BBE1AF2993C00618659 /* GlanceTests */,
+				A0785BD01AF2996100618659 /* Glance WatchKit Extension */,
+				A0785BDF1AF2996200618659 /* Glance WatchKit App */,
+				A0785BA71AF2993C00618659 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0785BA71AF2993C00618659 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0785BA61AF2993C00618659 /* Glance.app */,
+				A0785BBB1AF2993C00618659 /* GlanceTests.xctest */,
+				A0785BCF1AF2996100618659 /* Glance WatchKit Extension.appex */,
+				A0785BDB1AF2996200618659 /* Glance WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0785BA81AF2993C00618659 /* Glance */ = {
+			isa = PBXGroup;
+			children = (
+				A0785BAB1AF2993C00618659 /* AppDelegate.swift */,
+				A0785BAD1AF2993C00618659 /* ViewController.swift */,
+				A0785BAF1AF2993C00618659 /* Main.storyboard */,
+				A0785BB21AF2993C00618659 /* Images.xcassets */,
+				A0785BB41AF2993C00618659 /* LaunchScreen.xib */,
+				A0785BA91AF2993C00618659 /* Supporting Files */,
+			);
+			path = Glance;
+			sourceTree = "<group>";
+		};
+		A0785BA91AF2993C00618659 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0785BAA1AF2993C00618659 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0785BBE1AF2993C00618659 /* GlanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0785BC11AF2993C00618659 /* GlanceTests.swift */,
+				A0785BBF1AF2993C00618659 /* Supporting Files */,
+			);
+			path = GlanceTests;
+			sourceTree = "<group>";
+		};
+		A0785BBF1AF2993C00618659 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0785BC01AF2993C00618659 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0785BD01AF2996100618659 /* Glance WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A0785BD31AF2996100618659 /* InterfaceController.swift */,
+				A0785BD51AF2996100618659 /* GlanceController.swift */,
+				A0785BD71AF2996100618659 /* Images.xcassets */,
+				A0785BD11AF2996100618659 /* Supporting Files */,
+			);
+			path = "Glance WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		A0785BD11AF2996100618659 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0785BD21AF2996100618659 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0785BDF1AF2996200618659 /* Glance WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				A0785BE21AF2996200618659 /* Interface.storyboard */,
+				A0785BE51AF2996200618659 /* Images.xcassets */,
+				A0785BE01AF2996200618659 /* Supporting Files */,
+			);
+			path = "Glance WatchKit App";
+			sourceTree = "<group>";
+		};
+		A0785BE01AF2996200618659 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0785BE11AF2996200618659 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0785BA51AF2993C00618659 /* Glance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0785BC51AF2993C00618659 /* Build configuration list for PBXNativeTarget "Glance" */;
+			buildPhases = (
+				A0785BA21AF2993C00618659 /* Sources */,
+				A0785BA31AF2993C00618659 /* Frameworks */,
+				A0785BA41AF2993C00618659 /* Resources */,
+				A0785BF01AF2996200618659 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0785BE81AF2996200618659 /* PBXTargetDependency */,
+			);
+			name = Glance;
+			productName = Glance;
+			productReference = A0785BA61AF2993C00618659 /* Glance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0785BBA1AF2993C00618659 /* GlanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0785BC81AF2993C00618659 /* Build configuration list for PBXNativeTarget "GlanceTests" */;
+			buildPhases = (
+				A0785BB71AF2993C00618659 /* Sources */,
+				A0785BB81AF2993C00618659 /* Frameworks */,
+				A0785BB91AF2993C00618659 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0785BBD1AF2993C00618659 /* PBXTargetDependency */,
+			);
+			name = GlanceTests;
+			productName = GlanceTests;
+			productReference = A0785BBB1AF2993C00618659 /* GlanceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A0785BCE1AF2996100618659 /* Glance WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0785BED1AF2996200618659 /* Build configuration list for PBXNativeTarget "Glance WatchKit Extension" */;
+			buildPhases = (
+				A0785BCB1AF2996100618659 /* Sources */,
+				A0785BCC1AF2996100618659 /* Frameworks */,
+				A0785BCD1AF2996100618659 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0785BDE1AF2996200618659 /* PBXTargetDependency */,
+			);
+			name = "Glance WatchKit Extension";
+			productName = "Glance WatchKit Extension";
+			productReference = A0785BCF1AF2996100618659 /* Glance WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		A0785BDA1AF2996200618659 /* Glance WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0785BEA1AF2996200618659 /* Build configuration list for PBXNativeTarget "Glance WatchKit App" */;
+			buildPhases = (
+				A0785BD91AF2996200618659 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Glance WatchKit App";
+			productName = "Glance WatchKit App";
+			productReference = A0785BDB1AF2996200618659 /* Glance WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0785B9E1AF2993C00618659 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Apple Watch Docs";
+				TargetAttributes = {
+					A0785BA51AF2993C00618659 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					A0785BBA1AF2993C00618659 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = A0785BA51AF2993C00618659;
+					};
+					A0785BCE1AF2996100618659 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					A0785BDA1AF2996200618659 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = A0785BA11AF2993C00618659 /* Build configuration list for PBXProject "Glance" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0785B9D1AF2993C00618659;
+			productRefGroup = A0785BA71AF2993C00618659 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0785BA51AF2993C00618659 /* Glance */,
+				A0785BBA1AF2993C00618659 /* GlanceTests */,
+				A0785BCE1AF2996100618659 /* Glance WatchKit Extension */,
+				A0785BDA1AF2996200618659 /* Glance WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0785BA41AF2993C00618659 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0785BB11AF2993C00618659 /* Main.storyboard in Resources */,
+				A0785BB61AF2993C00618659 /* LaunchScreen.xib in Resources */,
+				A0785BB31AF2993C00618659 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0785BB91AF2993C00618659 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0785BCD1AF2996100618659 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0785BDC1AF2996200618659 /* Glance WatchKit App.app in Resources */,
+				A0785BD81AF2996100618659 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0785BD91AF2996200618659 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0785BE41AF2996200618659 /* Interface.storyboard in Resources */,
+				A0785BE61AF2996200618659 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0785BA21AF2993C00618659 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0785BAE1AF2993C00618659 /* ViewController.swift in Sources */,
+				A0785BAC1AF2993C00618659 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0785BB71AF2993C00618659 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0785BC21AF2993C00618659 /* GlanceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0785BCB1AF2996100618659 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0785BD41AF2996100618659 /* InterfaceController.swift in Sources */,
+				A0785BD61AF2996100618659 /* GlanceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0785BBD1AF2993C00618659 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0785BA51AF2993C00618659 /* Glance */;
+			targetProxy = A0785BBC1AF2993C00618659 /* PBXContainerItemProxy */;
+		};
+		A0785BDE1AF2996200618659 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0785BDA1AF2996200618659 /* Glance WatchKit App */;
+			targetProxy = A0785BDD1AF2996200618659 /* PBXContainerItemProxy */;
+		};
+		A0785BE81AF2996200618659 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0785BCE1AF2996100618659 /* Glance WatchKit Extension */;
+			targetProxy = A0785BE71AF2996200618659 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A0785BAF1AF2993C00618659 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0785BB01AF2993C00618659 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A0785BB41AF2993C00618659 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0785BB51AF2993C00618659 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		A0785BE21AF2996200618659 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0785BE31AF2996200618659 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0785BC31AF2993C00618659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0785BC41AF2993C00618659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0785BC61AF2993C00618659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Glance/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A0785BC71AF2993C00618659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Glance/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A0785BC91AF2993C00618659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GlanceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Glance.app/Glance";
+			};
+			name = Debug;
+		};
+		A0785BCA1AF2993C00618659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GlanceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Glance.app/Glance";
+			};
+			name = Release;
+		};
+		A0785BEB1AF2996200618659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Glance_WatchKit_Extension;
+				INFOPLIST_FILE = "Glance WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		A0785BEC1AF2996200618659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = Glance_WatchKit_Extension;
+				INFOPLIST_FILE = "Glance WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		A0785BEE1AF2996200618659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Glance WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A0785BEF1AF2996200618659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Glance WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0785BA11AF2993C00618659 /* Build configuration list for PBXProject "Glance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0785BC31AF2993C00618659 /* Debug */,
+				A0785BC41AF2993C00618659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0785BC51AF2993C00618659 /* Build configuration list for PBXNativeTarget "Glance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0785BC61AF2993C00618659 /* Debug */,
+				A0785BC71AF2993C00618659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A0785BC81AF2993C00618659 /* Build configuration list for PBXNativeTarget "GlanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0785BC91AF2993C00618659 /* Debug */,
+				A0785BCA1AF2993C00618659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A0785BEA1AF2996200618659 /* Build configuration list for PBXNativeTarget "Glance WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0785BEB1AF2996200618659 /* Debug */,
+				A0785BEC1AF2996200618659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A0785BED1AF2996200618659 /* Build configuration list for PBXNativeTarget "Glance WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0785BEE1AF2996200618659 /* Debug */,
+				A0785BEF1AF2996200618659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0785B9E1AF2993C00618659 /* Project object */;
+}
